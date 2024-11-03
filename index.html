@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Stone Crusher</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Squad Stone Crusher" id="logo"> <!-- Ganti dengan path logo Anda -->
+        <h1>Selamat Datang di Squad Stone Crusher</h1>
+    </header>
+
+    <main>
+        <h2 id="squadPrompt">Yakin ga mau masuk squad SC?</h2>
+        <div id="currentTime" style="text-align: center; font-size: 20px; margin: 20px 0;"></div>
+        <div class="input-container">
+            <input type="text" id="nameInput" placeholder="Masukkan nama Anda" />
+            <input type="email" id="emailInput" placeholder="Masukkan alamat email Anda" />
+            <button id="btnGreet">Klik untuk menjadi member!</button>
+            <button id="btnReset">Reset Daftar Pesan</button>
+        </div>
+        <p id="greeting"></p>
+        <div id="messageList"></div>
+        <div id="feedback">
+            <p>Berikan umpan balik:</p>
+            <button class="feedback-btn" data-feedback="👍">👍</button>
+            <button class="feedback-btn" data-feedback="😐">😐</button>
+            <button class="feedback-btn" data-feedback="👎">👎</button>
+        </div>
+        
+        <a href="https://www.squadscml.com" id="customLink" target="_blank">Kunjungi Situs Kustom</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Website Stone Crusher. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

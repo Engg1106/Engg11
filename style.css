@@ -1,0 +1,188 @@
+/* Tambahkan di CSS yang ada */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Menggunakan font dari Google Fonts */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black; /* Mengubah latar belakang menjadi hitam */
+    color: white; /* Mengubah warna teks menjadi putih untuk kontras yang baik */
+}
+
+h1, p {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Mengubah bayangan teks menjadi lebih terang */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #333; /* Mengatur latar belakang input menjadi abu-abu gelap */
+    color: white; /* Mengubah warna teks input menjadi putih */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #007bff; /* Tombol berwarna biru */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Mengubah warna tombol saat hover */
+}
+
+#btnReset {
+    background-color: #dc3545;
+    margin-top: 10px;
+}
+
+#btnReset:hover {
+    background-color: #c82333; /* Warna lebih gelap saat hover */
+}
+
+.message-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Latar belakang pesan transparan */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 0.5s; /* Animasi saat pesan muncul */
+}
+
+.feedback {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.feedback-btn {
+    background: none; /* Tanpa latar belakang */
+    border: none;
+    font-size: 24px; /* Ukuran font lebih besar untuk emoji */
+    cursor: pointer;
+    margin: 0 5px; /* Jarak antar tombol */
+    transition: transform 0.2s; /* Transisi saat ditekan */
+    color: white; /* Mengubah warna emoji menjadi putih */
+}
+
+.feedback-btn:hover {
+    transform: scale(1.2); /* Mengubah ukuran tombol saat hover */
+}
+
+/* style.css */
+
+/* style.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black; /* Mengubah latar belakang menjadi hitam */
+    color: white; /* Mengubah warna teks menjadi putih agar terlihat jelas di latar belakang hitam */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 150px; /* Sesuaikan dengan ukuran logo Anda */
+    height: auto; /* Menjaga proporsi logo */
+    margin-bottom: 10px; /* Jarak antara logo dan judul */
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%; /* Mengisi lebar kontainer */
+    max-width: 300px; /* Maksimum lebar input */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#greeting {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#feedback {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%; /* Mengisi lebar kontainer */
+    max-width: 300px; /* Maksimum lebar input */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#greeting {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#feedback {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
